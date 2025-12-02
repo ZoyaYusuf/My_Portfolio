@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import img1 from "/src/assets/ZOYA_RHCSA.jpeg"
 import img2 from "/src/assets/ZOYA_Guvi.png"
-import img3 from "/src/assets/ZOYA_GSSoC.png"
+import img3 from "/src/assets/Zoya_GSSoC.png"
 
 const customFontStack = "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif";
 const accentColor = '#CC4444'; // A vibrant red/coral color for the main text
