@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import img1 from "/src/assets/ZOYA_RHCSA.jpeg"
+import img2 from "/src/assets/ZOYA_Guvi.png"
+import img3 from "/src/assets/ZOYA_GSSoC.png"
 
 const customFontStack = "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif";
 const accentColor = '#CC4444'; // A vibrant red/coral color for the main text
@@ -18,11 +21,7 @@ export default function Certifications() {
     padding: '50px 0'
   };
 
-  const images = [
-    "./src/assets/ZOYA_RHCSA.jpeg",
-    "./src/assets/ZOYA_Guvi.png",
-    "./src/assets/ZOYA_GSSoC.png",
-  ];
+  const images = [img1, img2, img3];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -65,7 +64,6 @@ export default function Certifications() {
             }`}
           />
         ))}
-
         <div className="absolute bottom-4 flex space-x-2">
           {images.map((_, index) => (
             <span

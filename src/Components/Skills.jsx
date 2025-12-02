@@ -1,5 +1,18 @@
 import EastIcon from '@mui/icons-material/East';
 import WestIcon from '@mui/icons-material/West';
+import s1 from "/src/assets/HTML_Logo.png";
+import s2 from "/src/assets/CSS_Logo2.png";
+import s3 from "/src/assets/JS_Logo.png";
+import s4 from "/src/assets/React-icon.svg.png";
+import s5 from "/src/assets/Bootstrap_Logo.png";
+import s6 from "/src/assets/Rest_Logo.webp";
+import s7 from "/src/assets/MySQL_Logo.png";
+import s8 from "/src/assets/Git_Logo.svg";
+import s9 from "/src/assets/Git_Logo2.png";
+import s10 from "/src/assets/Tailwind_Logo.svg";
+import s11 from "/src/assets/NodeJS_Logo.svg";
+import s12 from "/src/assets/Express_Logo2.png";
+import s13 from "/src/assets/MongoDB_Logo.png";
 
 const customFontStack = "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif";
 const accentColor = '#CC4444'; // A vibrant red/coral color for the main text
@@ -36,21 +49,21 @@ export default function Skills() {
 
         <div className='w-screen grid grid-rows-2'>
           <div className='w-screen p-5 flex align-items-center justify-items-center gap-5 justify-center'>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src="/src/assets/HTML_Logo.png"></img>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src="/src/assets/CSS_Logo2.png"></img>
-            <img className="h-16 w-22 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-1" src="/src/assets/JS_Logo.png"></img>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src="/src/assets/React-icon.svg.png"></img>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-1" src="/src/assets/Bootstrap_Logo.png"></img>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src="/src/assets/Rest_Logo.webp"></img> 
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src="/src/assets/MySQL_Logo.png"></img>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src="/src/assets/Git_Logo.svg"></img> 
+            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s1}></img>
+            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s2}></img>
+            <img className="h-16 w-22 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-1" src={s3}></img>
+            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s4}></img>
+            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-1" src={s5}></img>
+            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s6}></img> 
+            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s7}></img>
+            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s8}></img> 
           </div>
           <div className='w-screen p-5 flex align-items-center justify-items-center gap-5 justify-center'>  
-            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src="/src/assets/Git_Logo2.png"></img> 
-            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src="/src/assets/Tailwind_Logo.svg"></img> 
-            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src="/src/assets/NodeJS_Logo.svg"></img>
-            <img className="h-16 w-50 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src="/src/assets/Express_Logo2.png"></img>
-            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src="/src/assets/MongoDB_Logo.png"></img>
+            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s9}></img> 
+            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s10}></img> 
+            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s11}></img>
+            <img className="h-16 w-50 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s12}></img>
+            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s13}></img>
           </div> 
         </div>  
         </div>
