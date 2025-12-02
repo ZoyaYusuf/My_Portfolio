@@ -1,0 +1,16 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.xdB=_.x("Z2vhDb",[]);
+}catch(e){_._DumpException(e)}
+try{
+var hhf,khf,jhf,lhf,ihf;hhf=function(a,b){a[_.Bsa]=b;b.map(()=>{delete a[_.Bsa]})};_.UL=function(a){const b={[ihf]:a,description:a,[_.Ne]:(c,d)=>{const e=jhf(b).cPc;e?e.unwrap(c,d):c(_.ena)}};return b};khf=function(a,b){const c="function"==typeof _.dxa&&a instanceof _.dxa,d={},e=[];for(const [f,g]of Object.entries(b)){b=f;const {cPc:h,Vye:k}=jhf(g);k&&c?(e.push(k),d[b]=h):d[b]=k?k.flatMap(()=>h):h}e.length&&a.Ca(f=>{hhf(f,_.Zna(e))});return d};
+jhf=function(a){(0,_.Gza)(a);const b=a[ihf];a=_.vna();var c;const d=(c=a.getAttribute("jscallback"))==null?void 0:c.split(";").find(h=>h.startsWith(`${b}${":"}`));if(!d)return{cPc:_.Se(null)};const [,e,f]=d.split(":");c=lhf(a,e);let g=()=>{};c=_.rna().ila(c).flatMap(h=>{g=_.uqa(h,f).bind(h);return _.Csa(h)});return{cPc:_.Se((...h)=>g.apply(null,h)),Vye:c}};
+lhf=function(a,b){let c=0;for(;a=a.parentElement;){a.hasAttribute("jsslot")&&c++;if(c===0&&a.getAttribute("jscontroller")===b)return a;a.hasAttribute("jsshadow")&&c--;if(c<0)break}};ihf=Symbol("cl");"optionalCallback"in _.cna||_.Ce({Lp:khf},!0);
+}catch(e){_._DumpException(e)}
+try{
+_.t("Z2vhDb");
+var iVB=_.UL("xg558"),jVB=_.UL("wCwf3e");var kVB=class extends _.og{static Sa(){return{Lp:{w$b:iVB,dkc:jVB}}}constructor(a){super(a.Oa);this.w$b=a.Lp.w$b;this.dkc=a.Lp.dkc}oa(a){this.w$b&&this.w$b(a)}Aa(a){this.dkc&&this.dkc(a)}};kVB.prototype.$wa$RAHB1d=function(){return this.Aa};kVB.prototype.$wa$rN5So=function(){return this.oa};_.is(_.xdB,kVB);
+_.v();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.

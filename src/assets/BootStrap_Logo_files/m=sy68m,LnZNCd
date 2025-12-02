@@ -1,0 +1,15 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.lat=_.x("LnZNCd",[]);
+}catch(e){_._DumpException(e)}
+try{
+_.t("LnZNCd");
+var mat=class extends _.m{constructor(a){super(a)}};mat.prototype.ob="Sk13Xb";var nat=function(a){var b=_.Xl("center_col");const c=_.Xl("rhs");if(b){if(a.oa!==b||a.Aa!==c)a.Ba=0;a.oa=b;a.Aa=c!=null?c:void 0;a.Ja=!!_.Xl("H3wGC");b=(b=_.Xl("rhs"))?b.classList.contains("e0KErc"):!1;a.Ea=b}},qat=function(a){_.z(a.config,1)||nat(a);const b=oat();let c=!0;for(const [,d]of b)if(d.matches){pat(a);c=!1;break}c&&pat(a)},oat=function(){return new Map([[12,window.matchMedia(`(max-width: ${_.kat-.02}px)`)],[14,window.matchMedia("(max-width: 939.98px)")],[16,window.matchMedia("(max-width: 1163.98px)")]])},
+pat=function(a){rat(a);a.Da=(0,_.Ao)(()=>{if((a.Ja||a.Ea)&&document.visibilityState!=="hidden"&&a.oa&&!(a.Ba>=_.Dd(a.config,2,10))){var b=sat(),c=_.Xf(),d=!0,e=(h,k)=>{c.Ic(h,k);d=!1},f=a.oa.getBoundingClientRect();if(a.Aa){const h=a.Aa.getBoundingClientRect();var g=Math.round(h.left-f.right);const k=Math.round(h.top-f.top);!(h.width*h.height>1)||Math.abs(k)<2&&Math.abs(g-76)<2||e("errsrp-rhs-p",`t:${k},d:${g}/${b}cols`);a.Ja&&b===12?(Math.abs(f.width-652)<2||e("errsrp-main-w",`${Math.round(f.width)}/${b}cols`),
+a.Aa.querySelectorAll('[data-rrhs="1"]').length===0&&a.oa.querySelectorAll('[data-rrhs="1"]').length!==0||e("errsrp-rhs-r","no-reflow")):a.Ea&&(g=Math.min(12,Math.max(8,b-6)),Math.abs(f.width-(56*g-20))<2||e("errsrp-main-w",`${Math.round(f.width)}/${b}cols`),Math.abs(h.width-(56*(b-1-g)-20))<2||e("errsrp-rhs-w",`${Math.round(h.width)}/${b}cols`))}else Math.abs(f.width-652)<2||e("errsrp-main-w",`${Math.round(f.width)}/${b}cols`);d||(c.log(),a.Ba++)}},10)},sat=function(){for(const [a,b]of oat()){const c=
+a;if(b.matches)return c}return 20},rat=function(a){a.Da&&((0,_.Bo)(a.Da),a.Da=null)},tat=class extends _.og{static Sa(){return{jsdata:{KEe:mat}}}constructor(a){super(a.Oa);this.Ea=this.Ja=!1;this.Ba=0;this.config=a.jsdata.KEe;_.z(this.config,1)&&(nat(this),a=_.Yl("cnt"),this.Ca=new MutationObserver(()=>{qat(this)}),this.Ca.observe(a,{childList:!0}));const b=oat();for(var [,c]of b)c.addEventListener("change",()=>{pat(this)});this.addOnDisposeCallback(()=>{for(const [,d]of b)d.removeEventListener("change",
+()=>{pat(this)})});qat(this);c=_.Xf();c.Ic("errsrp-init","init");c.log()}Tb(){this.Ca&&this.Ca.disconnect();super.Tb()}};tat.prototype.$wa$k4Iseb=function(){return this.Tb};_.is(_.lat,tat);
+_.v();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.
