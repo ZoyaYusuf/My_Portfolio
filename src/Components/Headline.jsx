@@ -30,9 +30,8 @@ const HeroSection = () => {
             
             {/* Main Typographic Element */}
             <h1 className="leading-[0.85] tracking-tight mb-6" style={{ color: accentColor, fontFamily: customFontStack }}>
-              <span className="text-6xl md:text-7xl lg:text-8xl block font-extrabold">HELLO</span>
-              <span className="text-6xl md:text-7xl lg:text-8xl block font-extrabold mb-4 mt-4">I'M</span>
-              <span className="text-9xl md:text-[10rem] lg:text-[12rem] block font-extrabold mt-4">ZOYA</span>
+              <span className="text-6xl md:text-[8rem] lg:text-[10rem] block font-extrabold mt-4">ZOYA</span>
+              <span className="text-6xl md:text-[8rem] lg:text-[10rem] block font-extrabold mt-4">YUSUF</span>
             </h1>
             
             <div className='mt-16 md:mt-24 space-y-6 hidden md:block'>
