@@ -5,7 +5,7 @@ import Headline from './Components/Headline'
 import Projects from './Components/Projects'
 import Certifications from './Components/Certifications'
 import Contact from './Components/Contact' 
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() { 
 

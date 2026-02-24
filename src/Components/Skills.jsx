@@ -47,26 +47,26 @@ export default function Skills() {
       </h1>
 
 
-        <div className='w-screen grid grid-rows-2'>
-          <div className='w-screen p-5 flex align-items-center justify-items-center gap-5 justify-center'>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s1}></img>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s2}></img>
-            <img className="h-16 w-22 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-1" src={s3}></img>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s4}></img>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-1" src={s5}></img>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s6}></img> 
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s7}></img>
-            <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s8}></img> 
-          </div>
-          <div className='w-screen p-5 flex align-items-center justify-items-center gap-5 justify-center'>  
-            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s9}></img> 
-            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s10}></img> 
-            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s11}></img>
-            <img className="h-16 w-50 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s12}></img>
-            <img className="h-16 w-36 bg-[#FAF8F5] rounded-lg transition duration-160 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s13}></img>
-          </div> 
-        </div>  
+      <div className='px-4 sm:px-8 md:px-16 py-8'>
+        <div className='p-5 flex flex-wrap items-center justify-center gap-5'>
+          <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s1}></img>
+          <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s2}></img>
+          <img className="h-16 w-20 sm:w-22 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-1" src={s3}></img>
+          <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s4}></img>
+          <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-1" src={s5}></img>
+          <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s6}></img> 
+          <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s7}></img>
+          <img className="h-16 w-16 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s8}></img> 
         </div>
+        <div className='p-5 flex flex-wrap items-center justify-center gap-5'>  
+          <img className="h-16 w-28 sm:w-36 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s9}></img> 
+          <img className="h-16 w-28 sm:w-36 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s10}></img> 
+          <img className="h-16 w-28 sm:w-36 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s11}></img>
+          <img className="h-16 w-32 sm:w-48 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s12}></img>
+          <img className="h-16 w-28 sm:w-36 bg-[#FAF8F5] rounded-lg transition duration-200 shadow-md shadow-[#EB3678] border border-[#121a1f] p-2" src={s13}></img>
+        </div> 
+      </div>
+    </div>
 
         <div className='absolute bottom-4 left-4 z-10'>
             <StarSVG fillColor={mainBg} />
