@@ -22,7 +22,7 @@ export default function Projects(){
       description: 'An Airbnb like Website with user authentication, house listing options and finding rental places.',
       tech: ['EJS', 'Node.js', 'MongoDB', 'Express'],
       github: 'https://github.com/ZoyaYusuf/Domora',
-      live: 'https://domoraa.onrender.com/'
+      live: ''
     },
     // {
     //   title: 'Social Media Analytics',
